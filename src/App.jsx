@@ -1018,7 +1018,7 @@ const generateQuestionForTopic = (topicId, variantIndex) => {
   }
 };
 
-export default function App() {
+  function App() {
   const [activeTab, setActiveTab] = useState('curriculum'); // 'curriculum', 'arcade', 'tutor'
   const [activeTopic, setActiveTopic] = useState(TOPICS[0]);
   const [activeGame, setActiveGame] = useState(ARCADE_GAMES[0]);
